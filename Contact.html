@@ -212,6 +212,12 @@
         display: none;
     }
 
+    .note {
+        margin: 16px 0 0;
+        font-size: 0.8rem;
+        color: var(--muted);
+    }
+
     .btn {
         cursor: pointer;
         font-family: inherit;
@@ -314,6 +320,7 @@
                     <textarea id="message" name="Message" maxlength="5000" required></textarea>
                 </div>
                 <button type="submit" class="btn">Send message</button>
+                <p class="note">Messages are delivered through FormSubmit.</p>
             </form>
         </section>
     </main>
